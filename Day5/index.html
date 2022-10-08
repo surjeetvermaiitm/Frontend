@@ -4,9 +4,31 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Document</title>
+
 </head>
 <body>
-    
+    <script src="main.js"></script>
+
+    <h1>Event Handling and Form tag</h1>
+    <!-- <button id="clickme" onclick="handClick()">Click Me</button> -->
+    <button id="start">Start</button>
+    <button id="stop">Stop</button><br>
+    <div>
+        <label for="username">Username</label>
+        <input name="username" id="username" type="text" autocomplete="off" placeholder="Enter the username" />    
+    </div>
+    <!-- div.parent>div.child>button#subchild -->
+    <div class="parent box">
+        parent
+        <div class="child box">
+            child
+            <button id="subchild">Subchild</button>
+        </div>
+    </div>
+
+
+
 </body>
 </html>
