@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Surjeet's Portfolio</title>
+</head>
+<body>
+    <section class="menu">
+        <nav>
+            <ul>
+                <li><a href="#about-me">About me</a></li>
+                <li><a href="#qualification">Qualification</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#technology">Technologies</a></li>
+                <li><a href="#social">Contact Me</a></li>
+            </ul>
+        </nav>
+    </section>
+    <header>
+        <nav class="default-nav">
+            <a href="#about-me">About me</a><a href="#qualification">Qualification</a><a href="#hobbies">Hobbies</a><a href="#technology">Technologies</a><a href="#social">Contact Me</a>
+        </nav>
+        <nav class="mobile-nav">
+            <button id="menu-button">Menu</button>
+        </nav>
+    </header>
+    <main class="container">
+        <article class="intro">
+            <img id="profile-image" src="https://media-exp1.licdn.com/dms/image/C5103AQHflv8e3VVJDg/profile-displayphoto-shrink_800_800/0/1562172205514?e=1670457600&v=beta&t=5MD0PDhsHiiSOHUeLqAtfrJncz2wShJji3gQwtvUwis" alt="html image">
+            <h1>Hi, I'm Surjeet</h1>
+            <p>I am <span id="dynamic-text"></span></p>
+            <p class="social-link">
+                <a href="https://www.linkedin.com/in/surjeet-kumar-verma-a74a7415b/"><img width="30" height="30"src="linkedin-logo.png" alt="Linked In"></a>
+            </p>
+        </article>
+        <section id="about-me">
+            <h2>About me</h2>
+            <p>Software Engineer</p>
+            <p>Love coffee</p>
+        </section>
+        <section id="qualification">
+            <h2>Qualification</h2>
+            <ol>
+                <li>Dual Degree in Mech from IIT Madras</li>
+                <li>Graduated from IITM</li>
+            </ol>
+        </section>
+        <section id="hobbies">
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Listeaning Music</li>
+                <li>Playing Badminton</li>
+            </ul>
+        </section>
+        <section id="technology">
+            <h2>Technologies</h2>
+            <table>
+                <tr>
+                    <th>Frontend</th>
+                    <th>Backend</th>
+                    <th>Database</th>
+                </tr>
+                <tr>
+                    <td>HTML</td>
+                    <td>NodeJS</td>
+                    <td>MySQL</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Rails</td>
+                    <td>MongoDB</td>
+                </tr>
+                <tr>
+                    <td>JS</td>
+                    <td>Django</td>
+                    <td>PostreSQL</td>
+                </tr>
+            </table>
+        </section>
+        <section id="social">
+            <h2>Reach me at</h2>
+        <a href="https://www.linkedin.com/in/surjeet-kumar-verma-a74a7415b/"><img width="30" height="30"src="linkedin-logo.png" alt="Linked In"></a>
+        </section>
+    </main>
+    <footer>
+        Made with ❤️ by Surjeet Kumar Verma  © 2022 
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
